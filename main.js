@@ -29,8 +29,6 @@ const getMedian = (...numbers) => {
 //5 
 const filterEvenNumbers = (...numbers) => numbers.filter(number => number % 2);
 
-//6
-const countPositiveNumber = (...numbers) => numbers.filter(number => number > 0).length;
 
 //7
 const getDividedByFive = (...numbers) => numbers.filter(number => number % 5 === 0);
@@ -45,7 +43,5 @@ console.log (getAverage(1, 2, 3, 5, 10, 45));
 console.log(getMedian(1, 3, 5, 7,));
 //5
 console.log(filterEvenNumbers(1, 2, 3, 4, 5, 6, 7));
-//6
-console.log(countPositiveNumber(-1, 2, -6, -9, 10, 3, 6, 7));
 //7
 console.log(getDividedByFive(10, 5, 43, 45, 55, 63, 2, 22));
